@@ -1,7 +1,7 @@
 // When adalah operator pengganti switch-case di bahasa pemrograman C.
 fun main(args: Array<String>) {
     //Use of When
-    var x:Int = 5
+    var x: Int = 5
     when (x) {
         1 -> println("x == 1")
         2 -> println("x == 2")
@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     x = 2
     when (x) {
-        1,2 -> println("Value of X either 1,2")
+        1, 2 -> println("Value of X either 1,2")
         else -> { // Note the block
             println("x is neither 1 nor 2")
         }
